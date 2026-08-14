@@ -1,0 +1,20 @@
+{
+  "name": "dsh-subagent-qoder-cloud",
+  "version": "0.1.0",
+  "description": "Qoder Cloud Agent subagent provider for DeepSeek Harness",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "dependencies": {
+    "eventsource-parser": "^3.0.1"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.0",
+    "@deepseek-ai/dsh-subagent": "*"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
