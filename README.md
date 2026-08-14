@@ -2,6 +2,14 @@
 
 DeepSeek Harness (dsh) subagent provider — 将任务委派给 **Qoder Cloud Agents** 执行。
 
+## 安装
+
+```bash
+dsh plugin --profile web add github:adlternative/dsh-subagent-qoder-cloud
+```
+
+然后编辑 `~/.dsh/profiles/web/cordis.patch.yml`，添加插件注册（详见 [INSTALL.md](INSTALL.md)）。
+
 ## 零配置启动
 
 只需一个环境变量 `QODER_CLOUD_PAT`，插件自动完成：
